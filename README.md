@@ -13,11 +13,14 @@ DESCRIPTION
 ###1-Filtering-24-Methylobacterium-genome-assemblies
 
 - 1-assemblies.R (R script)
+
 - summary of assembly statistics before assembly filtering (ummary-megahit.txt ; summary-megahit.pdf)
+
 - For each assembly (24), this folder also contains: 
 1) Fasta files with megahit assemblies of 24 Methylobacterium genomes (xxx_final.contigs.fa)
 2) Filtering summary file (xxx_summary.txt)
 3) Fasta files without filtered scaffolds (xxx_filtered.fa)
+
 - Fasta and summary files for 3 contaminated assemblies (E-016, E-025, J-059), before and after removing contaminating scaffolds (clean assemblies in xxx_filtered-clean.fa; contaminant genomes in xxx_filtered-contaminant.fa)
 
 ###2-Determination-Methylobacterium-core-genome
