@@ -13,8 +13,8 @@ DESCRIPTION
 
 ###0-Original-codes-and-ressources (AVAILABLE)
 
-This section contains the original R code that was used in Leducq et al. 2022 (doi.org/10.1093/gbe/evac123), annotation files from 213 Methylobacteriaceae genomes (myRAST outputs), major outputs from the R codes (alignments and statistics) and tree files (outputs from RAxML, ASTRAL and SVDquartet).
-As the R code is a bit messy, and I keep adding new Methylobacteriaceae genomes to the workflow, I decided to provide it as raw. 
+This section contains the original R code that was used in Leducq et al. 2022 (doi.org/10.1093/gbe/evac123), annotation files from the original 213 Methylobacteriaceae genomes (myRAST outputs), major outputs from the R codes (alignments and statistics) and tree files (outputs from RAxML, ASTRAL and SVDquartet).
+As the R code is a bit messy, and as I keep adding new Methylobacteriaceae genomes to the workflow, I decided to provide it as raw. 
 Updated and cleaner versions of the code and outputs will be progressively added to the following sections.
 
 ###1-Filtering-24-Methylobacterium-genome-assemblies (AVAILABLE)
