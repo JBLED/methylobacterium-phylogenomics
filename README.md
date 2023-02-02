@@ -11,13 +11,13 @@ https://doi.org/10.1093/gbe/evac123
 ##########################################
 DESCRIPTION
 
-###0-Original-codes-and-ressources
+###0-Original-codes-and-ressources (AVAILABLE)
 
 This section contains the original R code that was used in Leducq et al. 2022 (doi.org/10.1093/gbe/evac123) and major outputs.
 As this code is a bit messy and I keep adding new Methylobacteriaceae genomes to the workflow, I decided to provide it as raw. 
 Updated and cleaner versions of the code and outputs will be progressively added to the following sections.
 
-###1-Filtering-24-Methylobacterium-genome-assemblies
+###1-Filtering-24-Methylobacterium-genome-assemblies (AVAILABLE)
 Filtering and cleaning of 24 Methylobacterium genomes assemblies
 
 - 1-assemblies.R (R script)
@@ -31,14 +31,14 @@ Filtering and cleaning of 24 Methylobacterium genomes assemblies
 
 - Fasta and summary files for 3 contaminated assemblies (E-016, E-025, J-059), before and after removing contaminating scaffolds (clean assemblies in xxx_filtered-clean.fa; contaminant genomes in xxx_filtered-contaminant.fa)
 
-###2-Determination-Methylobacterium-core-genome
+###2-Determination-Methylobacterium-core-genome (IN PROGRESS)
 
 - 2-Determination-Core-Genome-Original-Dataset.R
 
-###3-Genome-Annotation-Phylogeny-Synteny
+###3-Genome-Annotation-Phylogeny-Synteny (IN PROGRESS)
 
 - 3-ADD-Alessa-genomes.R
 
-###4-Synteny-visualisation
+###4-Synteny-visualisation (IN PROGRESS)
 
 - 4-Formating-Input-Cytoscape.R
