@@ -11,6 +11,11 @@ https://doi.org/10.1093/gbe/evac123
 ##########################################
 DESCRIPTION
 
+###0-Original-code-and-ressources
+This section contains the original R code that was used in Leducq et al. 2022 (doi.org/10.1093/gbe/evac123) and major outputs.
+As this code is a bit messy and I keep adding new Methylobacteriaceae genomes to the workflow, I decided to provide it as raw. 
+Updated and cleaner versions of the code and outputs will be progressively added to the following sections.
+
 ###1-Filtering-24-Methylobacterium-genome-assemblies
 Filtering and cleaning of 24 Methylobacterium genomes assemblies
 
