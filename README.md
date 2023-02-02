@@ -4,8 +4,9 @@ https://github.com/JBLED/methylobacterium-phylogenomics.git
 IF USING ANY INFORMATION RELATED TO THIS PROJECT, PLEASE READ AND CITE:
 
 Leducq et al. (2022) Comprehensive phylogenomics of Methylobacterium reveals four evolutionary distinct groups and underappreciated phyllosphere diversity.
+Genome Biology and Evolution, Volume 14, Issue 8, August 2022
 
-PRE-PRINT VERSION: xxx and updated versions
+https://doi.org/10.1093/gbe/evac123
 
 ##########################################
 DESCRIPTION
