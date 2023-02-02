@@ -23,7 +23,7 @@ Filtering and cleaning of 24 Methylobacterium genomes assemblies
 
 - 1-assemblies.R (R script)
 
-- summary of assembly statistics before assembly filtering (ummary-megahit.txt ; summary-megahit.pdf)
+- summary of assembly statistics before assembly filtering (summary-megahit.txt ; summary-megahit.pdf)
 
 - For each assembly (24), this folder also contains: 
 1) Fasta file with megahit assembly (xxx_final.contigs.fa)
