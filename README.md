@@ -34,7 +34,7 @@ Filtering and cleaning of 24 Methylobacterium genomes assemblies (sequenced in L
 
 ## 2-Determination-Methylobacterium-core-genome (AVAILABLE)
 
-Methylobacterium core genome determination and production of alignments - Starting for 213 Methylobacteriaceae genomes used in Leducq et al. 2022b (doi.org/10.1093/gbe/evac123) and enriched with 21 newly released Methylobacterium genomes. Unlike in Leducq et al. 2022b, the core genome is here defined only for Methylobacterium (Microvirga and Enterovirga excluded, but still nucleotide sequences were retrieved when available), resulting in 616 core genes (384 in the study).
+Methylobacterium core genome determination and production of alignments - Starting for 213 Methylobacteriaceae genomes used in Leducq et al. 2022b (doi.org/10.1093/gbe/evac123) and enriched with 21 newly released Methylobacterium genomes. Unlike in Leducq et al. 2022b, the core genome is here defined only for Methylobacterium (Microvirga and Enterovirga excluded, but still nucleotide sequences were retrieved when available), resulting in 616 core genes (384 in the original study).
 
 - 2-Determination-Core-Genome-Feb-2023.R (R-script)
 
