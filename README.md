@@ -34,7 +34,9 @@ Filtering and cleaning of 24 Methylobacterium genomes assemblies (sequenced in L
 
 ###2-Determination-Methylobacterium-core-genome (AVAILABLE)
 
-Methylobacterium core genome determination and production of alignments - Starting for 213 Methylobacteriaceae genomes used in Leducq et al. 2022b (doi.org/10.1093/gbe/evac123) and enriched with 21 newly released Methylobacterium genomes
+Methylobacterium core genome determination and production of alignments - Starting for 213 Methylobacteriaceae genomes used in Leducq et al. 2022b (doi.org/10.1093/gbe/evac123) and enriched with 21 newly released Methylobacterium genomes. Unlike in Leducq et al. 2022b, the core genome is here defined only for Methylobacterium (Microvirga and Enterovirga excluded, but still nucleotide sequences were retrieved when available), resulting in 616 core genes (384 in the study).
+
+- 2-Determination-Core-Genome-Feb-2023.R (R-script)
 
 1) Annotation statistics for each genome (Annotation-Summary.txt)
 2) Raw gene abundance per genome and per group (Genome-summary.pdf; Gene-copy-number-raw.txt)
@@ -43,13 +45,8 @@ Methylobacterium core genome determination and production of alignments - Starti
 5) Look at the number of core genes per group in function of different threshold (Annot-Numb-Core-Gene-per-group.txt)
 6) Refine the copy number estimation for these genes in all genomes using the sequence size normalized by size in complete genomes - look at distributions and define threshold (NCx) to keep only 1:1 genes within groups AND within Methylobacterium (Gene-modified-names.txt; RawFcoreCount_TH>=NCx.txt; RawFcoreSize_TH>=NCx.txt; NormalizedSize-vs-CopyNumber_TH>=NCx.pdf; Filtered-NormalizedSize-vs-CopyNumber_TH>=NCx.pdf; Gene-occurence-after-filtering.pdf; CoreGene-per-genome-N50.pdf). Also produce a fasta file for each genome, containing nucleotide sequences of core genes (231 files: Core-Genes-stXXX.fas zipped in two files in 2-Determination-Methylobacterium-core-genome/OUT-FASTA)
 7) For each core gene, produce a fasta file (geneXXXX.fas; not provided here) from genomes for which sequences are available (Summary-per-core-gene.txt; summary-core-genes-final.pdf; FinalFcoreCount_TH>=NCx.txt)
-
-- 2-Determination-Core-Genome-Feb-2023.R
+8) Align sequences for each core gene (Summary-per-core-gene-after-alignment.txt; 616 fasta files: GeneXXXX_alignedNF.fas zipped in two files in 2-Determination-Methylobacterium-core-genome/OUT-FASTA; intermediate alignement files are not provided)
 
 ###3-Genome-Annotation-Phylogeny-Synteny (TO DO)
 
-- 3-ADD-Alessa-genomes.R
-
 ###4-Synteny-visualisation (TO DO)
-
-- 4-Formating-Input-Cytoscape.R
