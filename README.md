@@ -39,8 +39,10 @@ Methylobacterium core genome determination and production of alignments - Starti
 1) Annotation statistics for each genome (Annotation-Summary.txt)
 2) Raw gene abundance per genome and per group (Genome-summary.pdf; Gene-copy-number-raw.txt)
 3) Proportion of genes with 1,2,3,4 or more copies in function of the number of scaffolds (Gene-copy.txt; GeneCopy-function-scaffold.pdf)
-4) Estimate of Methylobacterium core genome size by K random ressampling of genomes within groups (Annot-Raw-Rarefaction_K=K.pdf; Annot-Raw-Rarefaction_K=K.txt ; Annot-Numb-Core-Gene-per-group.txt)
-5) Refine the copy number estimation for these genes in all genomes using the sequence size normalized by size in complete genomes - look at distributions and define threshold (NCx) to keep only 1:1 genes within groups AND within Methylobacterium (Gene-modified-names.txt; RawFcoreCount_TH>=NCx.txt; RawFcoreSize_TH>=NCx.txt; NormalizedSize-vs-CopyNumber_TH>=NCx.pdf; Filtered-NormalizedSize-vs-CopyNumber_TH>=NCx.pdf; Gene-occurence-after-filtering.pdf; CoreGene-per-genome-N50.pdf)
+4) Estimate of Methylobacterium core genome size by K random ressampling of genomes within groups (Annot-Raw-Rarefaction_K=K.pdf; Annot-Raw-Rarefaction_K=K.txt)
+5) Look at the number of core genes per group in function of different threshold (Annot-Numb-Core-Gene-per-group.txt)
+6) Refine the copy number estimation for these genes in all genomes using the sequence size normalized by size in complete genomes - look at distributions and define threshold (NCx) to keep only 1:1 genes within groups AND within Methylobacterium (Gene-modified-names.txt; RawFcoreCount_TH>=NCx.txt; RawFcoreSize_TH>=NCx.txt; NormalizedSize-vs-CopyNumber_TH>=NCx.pdf; Filtered-NormalizedSize-vs-CopyNumber_TH>=NCx.pdf; Gene-occurence-after-filtering.pdf; CoreGene-per-genome-N50.pdf). Also produce a fasta file for each genome, containing nucleotide sequences of core genes (231 files: Core-Genes-stXXX.fas zipped in two files in 2-Determination-Methylobacterium-core-genome/OUT-FASTA)
+7) For each core gene, produce a fasta file (geneXXXX.fas; not provided here) from genomes for which sequences are available (Summary-per-core-gene.txt; summary-core-genes-final.pdf; FinalFcoreCount_TH>=NCx.txt)
 
 - 2-Determination-Core-Genome-Feb-2023.R
 
