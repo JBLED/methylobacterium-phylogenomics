@@ -36,10 +36,10 @@ Filtering and cleaning of 24 Methylobacterium genomes assemblies
 
 - 2-Determination-Core-Genome-Original-Dataset.R
 
-###3-Genome-Annotation-Phylogeny-Synteny (IN PROGRESS)
+###3-Genome-Annotation-Phylogeny-Synteny (TO DO)
 
 - 3-ADD-Alessa-genomes.R
 
-###4-Synteny-visualisation (IN PROGRESS)
+###4-Synteny-visualisation (TO DO)
 
 - 4-Formating-Input-Cytoscape.R
