@@ -9,15 +9,15 @@ Genome Biology and Evolution, Volume 14, Issue 8, August 2022
 https://doi.org/10.1093/gbe/evac123
 
 ##########################################
-DESCRIPTION
+## DESCRIPTION
 
-###0-Original-codes-and-ressources (AVAILABLE)
+# 0-Original-codes-and-ressources (AVAILABLE)
 
 This section contains the original R code that was used in Leducq et al. 2022b (doi.org/10.1093/gbe/evac123), annotation files from the original 213 Methylobacteriaceae genomes (myRAST outputs), major outputs from the R codes (alignments and statistics) and tree files (outputs from RAxML, ASTRAL and SVDquartet).
 As the R code is a bit messy, and as I keep adding new Methylobacteriaceae genomes to the workflow, I decided to provide it as raw. 
 Updated and cleaner versions of the code and outputs will be progressively added to the following sections.
 
-###1-Filtering-24-Methylobacterium-genome-assemblies (AVAILABLE)
+# 1-Filtering-24-Methylobacterium-genome-assemblies (AVAILABLE)
 
 Filtering and cleaning of 24 Methylobacterium genomes assemblies (sequenced in Leducq et al. 2022b)
 
@@ -32,7 +32,7 @@ Filtering and cleaning of 24 Methylobacterium genomes assemblies (sequenced in L
 
 - Fasta and summary files for 3 contaminated assemblies (E-016, E-025, J-059), before and after removing contaminating scaffolds (clean assemblies in xxx_filtered-clean.fa; contaminant genomes in xxx_filtered-contaminant.fa)
 
-###2-Determination-Methylobacterium-core-genome (AVAILABLE)
+# 2-Determination-Methylobacterium-core-genome (AVAILABLE)
 
 Methylobacterium core genome determination and production of alignments - Starting for 213 Methylobacteriaceae genomes used in Leducq et al. 2022b (doi.org/10.1093/gbe/evac123) and enriched with 21 newly released Methylobacterium genomes. Unlike in Leducq et al. 2022b, the core genome is here defined only for Methylobacterium (Microvirga and Enterovirga excluded, but still nucleotide sequences were retrieved when available), resulting in 616 core genes (384 in the study).
 
@@ -47,6 +47,6 @@ Methylobacterium core genome determination and production of alignments - Starti
 7) For each core gene, produce a fasta file (geneXXXX.fas; not provided here) from genomes for which sequences are available (Summary-per-core-gene.txt; summary-core-genes-final.pdf; FinalFcoreCount_TH>=NCx.txt)
 8) Align sequences for each core gene (Summary-per-core-gene-after-alignment.txt; 616 fasta files: GeneXXXX_alignedNF.fas zipped in two files in 2-Determination-Methylobacterium-core-genome/OUT-FASTA; intermediate alignement files are not provided)
 
-###3-Genome-Annotation-Phylogeny-Synteny (TO DO)
+# 3-Genome-Annotation-Phylogeny-Synteny (TO DO)
 
-###4-Synteny-visualisation (TO DO)
+# 4-Synteny-visualisation (TO DO)
