@@ -34,7 +34,7 @@ Filtering and cleaning of 24 Methylobacterium genomes assemblies
 
 ###2-Determination-Methylobacterium-core-genome (IN PROGRESS)
 
-- 2-Determination-Core-Genome-Original-Dataset.R
+- 2-Determination-Core-Genome-Feb-2023.R
 
 ###3-Genome-Annotation-Phylogeny-Synteny (TO DO)
 
