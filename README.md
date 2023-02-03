@@ -5,8 +5,10 @@ https://github.com/JBLED/methylobacterium-phylogenomics.git
 
 ## Leducq et al. (2022b) Comprehensive phylogenomics of Methylobacterium reveals four evolutionary distinct groups and underappreciated phyllosphere diversity.
 Genome Biology and Evolution, Volume 14, Issue 8, August 2022
-
 https://doi.org/10.1093/gbe/evac123
+
+### As the R code is a bit messy, and as I keep adding new Methylobacteriaceae genomes to the workflow, I decided to provide it as raw (SECTION 0). 
+### Updated and cleaner versions of the code and outputs will be progressively added to the following sections.
 
 ##########################################
 # DESCRIPTION
@@ -14,8 +16,6 @@ https://doi.org/10.1093/gbe/evac123
 ## 0-Original-codes-and-ressources (AVAILABLE)
 
 This section contains the original R code that was used in Leducq et al. 2022b (doi.org/10.1093/gbe/evac123), annotation files from the original 213 Methylobacteriaceae genomes (myRAST outputs), major outputs from the R codes (alignments and statistics) and tree files (outputs from RAxML, ASTRAL and SVDquartet).
-As the R code is a bit messy, and as I keep adding new Methylobacteriaceae genomes to the workflow, I decided to provide it as raw. 
-Updated and cleaner versions of the code and outputs will be progressively added to the following sections.
 
 ## 1-Filtering-24-Methylobacterium-genome-assemblies (AVAILABLE)
 
