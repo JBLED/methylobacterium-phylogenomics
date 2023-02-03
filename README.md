@@ -1,4 +1,4 @@
-https://github.com/JBLED/methylobacterium-phylogenomics.git
+# methylobacterium-phylogenomics
 
 ##########################################
 ## IF USING ANY INFORMATION RELATED TO THIS PROJECT, PLEASE READ AND CITE:
@@ -11,7 +11,7 @@ https://doi.org/10.1093/gbe/evac123
 ### Updated and cleaner versions of the code and outputs will be progressively added to the following sections.
 
 ##########################################
-# DESCRIPTION
+## DESCRIPTION
 
 ## 0-Original-codes-and-ressources (AVAILABLE)
 
